@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Choose a Math Operation");
+        System.out.println("Choose a math operation");
         String chosenOperation = scanner.nextLine().toUpperCase();
 
         MathOperation operation = MathOperation.valueOf(chosenOperation);
