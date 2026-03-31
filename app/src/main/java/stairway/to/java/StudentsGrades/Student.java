@@ -14,10 +14,6 @@ public class Student {
         this.grade2 = grade2;
     }
 
-    public Student(){
-        
-    }
-
     public double calculateAverage() {
         return (grade1 + grade2) / 2.0;
     }
